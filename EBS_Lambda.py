@@ -14,7 +14,7 @@ def lambda_handler(event, context):
                 {
                     'Name': 'volume-status.status',
                     'Values': [
-                        'ok',
+                        'impaired',
                     ]
                 },
             ]
