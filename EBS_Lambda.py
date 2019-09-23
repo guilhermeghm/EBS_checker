@@ -31,5 +31,5 @@ def lambda_handler(event, context):
         if VolumeIds_string:
             response = sns.publish(
                 TopicArn='arn:aws:sns:eu-west-1:777996869152:Teste',
-                Message=" The following volumes are impaired: " + VolumeIds_string,
+                Message=" The following volumes are impaired: " + VolumeIds_string
             )
