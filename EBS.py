@@ -21,7 +21,7 @@ VolumeIds_string = ','.join(VolumeIds)
 
 if VolumeIds_string:
     response = sns.publish(
-        TopicArn='arn:aws:sns:eu-west-1:777996869152:Teste',
+        TopicArn='arn:aws:sns:eu-west-1:xxxxxxxxxxxx:Teste',
         Message=" The following volumes are impaired: " + VolumeIds_string,
     )
 
